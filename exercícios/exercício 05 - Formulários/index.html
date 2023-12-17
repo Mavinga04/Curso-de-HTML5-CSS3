@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 align="center">Cadastramento</h1>
+
+    <form action="">
+     <fieldset>
+        <legend>Dados pessoais</legend> 
+        <label for="nome">Primeiro Nome:</label>
+        <input type="text " name="nome" id="nome" placeholder="Digite o teu primeiro nome" value="exemplo do value" required>
+
+        <label for="sobrenome">sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o teu sobrenome" required>
+        <label for=""></label>
+
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite a tua idade" required>
+     </fieldset>
+
+    <form action="">
+        <fieldset>
+            <legend>endereço</legend> 
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite o teu e-mail" required> 
+                
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite a tua senha" required>
+
+            <fieldset>
+                <legend>Gênero</legend>
+                <label for="genero">Masculino</label>
+                <input checked type="radio" name="genero" id="masc" value="Masculino">
+                <label for="fem">Femenino</label>
+                <input type="radio" name="genero" id="fem" value="Femenino">
+            </fieldset>
+
+            <fieldset>
+                <legend>Disciplinas</legend>
+                <label for="matematica">Matemática</label>
+                <input type="checkbox" name="matematica" id="matematica">
+
+                <label for="fisica">Física</label>
+                <input type="checkbox" name="fisica" id="fisica">
+
+                <label for="ingles">Inglês</label>
+                <input type="checkbox" name="ingles" id="ingles">
+
+                <label for="frances">frances</label>
+                <input type="checkbox" name="frances" id="frances">
+
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>outros</legend>
+            <label for="cor">selecione uma cor</label>
+            <input type="color" name="cor" id="cor"><br>
+
+            <label for="arquivo">Arquivo</label>
+            <input type="file" name="arquivo" id="arquivo"><br>
+
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data"><br>
+
+            <label for="select">selecione um município</label>
+            <select name="select" id="select"> 
+                <option value="">viana</option>
+                <option value="">cacuaco</option>
+                <option value="">talatona</option>
+                <option value="">kilamba kiaxi</option>
+
+            </select><br>
+
+            <label for="obs">observação</label><br>
+            
+            <textarea name="obs" id="obs" cols="30" rows="10">Qualquer coisa</textarea>
+
+
+        </fieldset>
+     <input type="reset" name="limpar" value="Limpar">
+     <input type="submit" name="enviar" value="ENVIAR">
+     
+    </form>
+
+
+
+
+</body>
+</html>
