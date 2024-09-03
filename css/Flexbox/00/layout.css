@@ -1,0 +1,14 @@
+
+.contentor{
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}.box{
+    width: 20vw;
+    height: 40vh;
+    background: orange;
+    margin: 10px;
+    font-size: 25px;
+}
